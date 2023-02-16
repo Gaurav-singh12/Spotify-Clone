@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.Spotifylogo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 0px; 
+}
+.text{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Varela Round' , sans-serif ;
+}
+
+.Spotifylogo img{
+    height: 400px;
+    border-radius: 50%;
+}
+.bgimage{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.bgimage img{
+    width: 70%;
+    border-radius: 15px;
+}
+.text1 p{
+    font-size: 1.5em;
+    margin: 10px;
+}
+.founders{
+    position: relative;
+    background-color: black;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.founders img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 5px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstText{
+    position: absolute;
+    bottom: 0px;
+    left:  280px;
+    color: white;
+}
+.secondText{
+    position: absolute;
+    bottom: 0px;
+    left: 1010px;
+    color: white;
+}
